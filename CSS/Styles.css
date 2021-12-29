@@ -120,7 +120,7 @@ a:hover {
 /* inicio del footer */
 footer {
     width: 100%;
-    height: 94.33px;
+    min-height: 94.33px;
     background-color: #f2f2f2;
     position: absolute;
     bottom: 1px;
@@ -141,8 +141,9 @@ footer {
 .footer__container-sub2 {
     font-size: 1.4rem;
     font-family: Arial, sans-serif;
-    height: 46px;
+    min-height: 46px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
